@@ -26,31 +26,12 @@ Aucune installation de package externe n'est nécessaire.
 
 ```bash
 python port_scanner.py [options]
+```
 
-Options disponibles
+### Options disponibles
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OptionDescriptionExemple-c, --cibleAdresse IP à scanner (défaut : 127.0.0.1)-c 192.168.1.10-p, --portListe de ports à scanner-p 22 80 443-h, --helpAffiche l'aide-h
+| Option          | Description                                      | Exemple              |
+|-----------------|--------------------------------------------------|----------------------|
+| `-c`, `--cible` | Adresse IP à scanner (défaut : `127.0.0.1`)      | `-c 192.168.1.10`    |
+| `-p`, `--port`  | Liste de ports à scanner                         | `-p 22 80 443`       |
+| `-h`, `--help`  | Affiche l'aide                                   | `-h`                 |
