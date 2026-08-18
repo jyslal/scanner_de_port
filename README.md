@@ -34,4 +34,4 @@ python port_scanner.py [options]
 |-----------------|--------------------------------------------------|----------------------|
 | `-c`, `--cible` | Adresse IP à scanner (défaut : `127.0.0.1`)      | `-c 192.168.1.10`    |
 | `-p`, `--port`  | Liste de ports à scanner                         | `-p 22 80 443`       |
-| `-h`, `--help`  | Affiche l'aide                                   | `-h`                 |
+
